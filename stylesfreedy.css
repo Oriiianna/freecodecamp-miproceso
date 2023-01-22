@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    color:brown;
+}
+
+*{
+    background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-line-white-background-business-picture-image_1326839.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img{
+    display: block;
+    align-content: center;
+    height: auto;
+    max-width: 100%;
+}
