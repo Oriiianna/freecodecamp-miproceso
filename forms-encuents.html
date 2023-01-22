@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <h1 id="title">Formulario de encuentas</h1>
+</head>
+
+<body>
+  <p id="description"> Hola este es mi primer curso de programación</p>
+  <form action="" id="survey-form">
+    <label for='name' id='name-label'>Name <input id='name' name='name' type='text' placeholder='Enter your name' required></label>
+    <label for='email' id='email-label'>Email <input id='email' name='email' type='email' placeholder='Email' required></label>
+    <label for='number' id='number-label'>Number<input id='number' name='number' type='number' placeholder="number" min='9' max='10' required></label>
+    <h3>¿Qué nivel de estudio tienes?</h3> <select id="dropdown" >
+      <option>Inicial</option>
+      <option>Primaria</option>
+      <option>Secundaria</option>
+      <option>Universitaria</option>
+    </select>
+    <h3>¿Qué deseas obtener de este curso?</h3>
+    <select id="dropdown" >
+      <option>Conocimiento</option>
+      <option>Experiencia</option>
+      <option>Mejora CV</option>
+    </select>
+    <div>
+      <br>
+        <h3>¿Qué lenguaje deseas aprender?</h3>
+        <label for='java'><input id='java' type='radio' name='Java' value='Java'>Java</input><input type="radio">Java.1 </input><input type="radio">Java.1 </input> </label>
+        <label for='mysql'><input type='radio' value='mysql id='mysql' name='mysql'>MySQL<input type="radio">Java.1 </input><input type="radio">Java.1 </input></input>
+       <form> 
+         <div>
+           <h3>¿Qué preguntas desea agregar a este formulario</h3>
+           <textarea>No olvides llenar este campo</textarea></div>
+  <br>
+    <div> 
+      <label form="robots">¿Eres un robot?<input type="checkbox" id="robots" name="robots" value="robots"></label>
+      <br>
+      <label form="robot">¿Seguro que no eres un robot?<input type="checkbox" id="robot" name="robot" value="robot"></label>
+      </div>
+      <br>
+      <div>
+<button type="submit" id="submit">Enviar</button>
+</div>
+</form>
+</head>
+</html>
